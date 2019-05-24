@@ -55,3 +55,55 @@ git commit -m 메세지 남기는것
 
 
 컨트롤 l 은 터미널 정리
+
+
+
+
+
+깃 프로젝트 주소
+
+https://github.com/sjagz/first20190524.git
+
+
+git remote --v
+
+
+
+git remote add origin https://github.com/sjagz/first20190524.git
+
+
+origin 은 이름
+
+
+파일올리기
+
+git push origin master
+
+
+
+
+다른컴퓨터에서 내 깃 이용하기
+
+올린 깃 파일들 다운하기
+
+다른 폴더를 만들고 깃 배쉬에서 cd로 그폴더를 타고 들어간다음에
+
+git clone https://github.com/sjagz/first20190524.git
+
+
+
+업데이트내용 불러오기 멀캠 폴더
+
+git pull origin master
+
+
+
+끝말잇기 다른계정으로 내 계정 작업을 같이하려면 
+
+콜라보레이션 해야함 
+
+
+
+쓰는게 리눅스에서 가져와서 빌려 쓰는거라
+
+윈도우 환경에서와 리눅스 환경에서 엔터키가 다른다는 경고창이 뜬것 
